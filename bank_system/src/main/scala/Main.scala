@@ -9,5 +9,4 @@ object Main extends App {
         t.start
         t
     }
-    println("Scala config test")
 }

@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/espeniv/NTNU/Scala-Project/Delivery1/target/scala-2.12/delivery1_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GenerateArray$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/espeniv/NTNU/Scala-Project/Delivery1/target/scala-2.12/classes/GenerateArray$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GenerateArray.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/espeniv/NTNU/Scala-Project/Delivery1/target/scala-2.12/classes/GenerateArray.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GenerateArray$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/espeniv/NTNU/Scala-Project/Delivery1/target/scala-2.12/classes/GenerateArray$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

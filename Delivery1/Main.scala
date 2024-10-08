@@ -40,7 +40,7 @@ object Main extends App {
         return getFibonacci(n - 1) + getFibonacci(n - 2)
     }
     println(getFibonacci(10))
-    /*The difference between BigInt and Int is that BigInt has a bigger maximum value that it can store compared to Int, 
+    /*The difference between BigInt and Int is that BigInt has a bigger maximum value that it can stoe compared to Int, 
     which is useful in exponential calculations like the Fibonacci sequence.*/
 
 

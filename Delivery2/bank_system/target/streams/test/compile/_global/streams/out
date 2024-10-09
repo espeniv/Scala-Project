@@ -1,0 +1,38 @@
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:16:12: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.util.Right[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m      case Right(x) => assert(x.balance == 300)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:17:12: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.util.Left[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m      case Left(x) => assert(false)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:24:19: value isLeft is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isLeft)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:30:19: value isLeft is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isLeft)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:36:19: value isRight is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isRight)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:37:19: value toOption is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.toOption.get.balance == 750)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:43:19: value isLeft is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isLeft)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:53:42: value toOption is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m          account = account.withdraw(10).toOption.get[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:61:40: value toOption is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m          account = account.deposit(5).toOption.get[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:69:42: value toOption is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m          account = account.withdraw(50).toOption.get[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/test/scala/AccountTests.scala:77:42: value toOption is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m          account = account.deposit(100).toOption.get[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m

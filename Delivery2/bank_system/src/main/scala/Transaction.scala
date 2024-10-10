@@ -55,5 +55,7 @@ class Transaction(val from: String,
   def getStatus() = status
 
   // TODO: Implement methods that change the status of the transaction
-
+  def setStatus(newStatus: TransactionStatus.Value) = {
+    status = newStatus
+  }
 }

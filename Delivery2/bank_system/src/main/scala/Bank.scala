@@ -7,24 +7,24 @@ class Bank(val allowedAttempts: Integer = 3) {
     val transactionsPool: TransactionPool = new TransactionPool()
     val completedTransactions: TransactionPool = new TransactionPool()
 
-
     def processing : Boolean = !transactionsPool.isEmpty
 
-    // TODO
-    // Adds a new transaction for the transfer to the transaction pool
-    def transfer(from: String, to: String, amount: Double): Unit = ???
+    def transfer(from: String, to: String, amount: Double): Unit = {
+        val newTransaction = new Transaction(from, to, amount)
+        transactionsPool.add(newTransaction)
+    }
 
     // TODO
     // Process the transactions in the transaction pool
     // The implementation needs to be completed and possibly fixed
     def processTransactions: Unit = {
 
-        // val workers : List[Thread] = transactionsPool.iterator.toList
-        //                                        .filter(/* select only pending transactions */)
-        //                                        .map(processSingleTransaction)
+        val workers : List[Thread] = transactionsPool.iterator.toList
+                                            .filter(t => t.getStatus() == TransactionStatus.PENDING)
+                                            .map(processSingleTransaction)
 
-        // workers.map( element => element.start() )
-        // workers.map( element => element.join() )
+        workers.map(element => element.start())
+        workers.map(element => element.join())
 
         /* TODO: change to select only transactions that succeeded */
         // val succeded : List[Transaction] = transactionsPool

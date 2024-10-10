@@ -1,4 +1,3 @@
-
 //Task 1.2 & 1.3
 class Account(val code : String, val balance: Double) {
 

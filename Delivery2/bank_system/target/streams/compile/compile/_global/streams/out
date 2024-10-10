@@ -1,4 +1,22 @@
-[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/main/scala/Transaction.scala:37:5: Missing closing brace `}' assumed here[0m
-[0m[[0m[31merror[0m] [0m[0m    }[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/main/scala/Transaction.scala:55:20: not found: type TransactionStatus[0m
+[0m[[0m[31merror[0m] [0m[0m  def getStatus(): TransactionStatus = {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/main/scala/Bank.scala:40:13: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m        if (t.getAttempts < t.retries) {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/main/scala/Bank.scala:40:29: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m        if (t.getAttempts < t.retries) {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/main/scala/Bank.scala:41:13: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m            t.setStatus(TransactionStatus.PENDING)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/main/scala/Bank.scala:42:13: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m            t.incrementAttempts()[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/main/scala/Bank.scala:44:37: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m            transactionsPool.remove(t)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/espeniv/NTNU/Scala-Project/Delivery2/bank_system/src/main/scala/Bank.scala:45:39: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m            completedTransactions.add(t)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

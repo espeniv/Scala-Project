@@ -50,12 +50,21 @@ class Transaction(val from: String,
                   val retries: Int = 3) {
 
   private var status: TransactionStatus.Value = TransactionStatus.PENDING
-  private var attempts = 0
+  private var attempts: Int = 0
 
-  def getStatus() = status
+  def getStatus(): TransactionStatus.Value = {
+    return status
+  } 
 
-  // TODO: Implement methods that change the status of the transaction
-  def setStatus(newStatus: TransactionStatus.Value) = {
+  def setStatus(newStatus: TransactionStatus.Value): Unit = {
     status = newStatus
+  }
+
+  def getAttempts(): Int = {
+    return attempts
+  }
+
+  def incrementAttempts(): Unit = {
+    attempts += 1
   }
 }

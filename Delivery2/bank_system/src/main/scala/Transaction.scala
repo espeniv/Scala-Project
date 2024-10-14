@@ -44,6 +44,8 @@ class TransactionPool {
 
 }
 
+
+//Transaction class with simple getters and setters
 class Transaction(val from: String,
                   val to: String,
                   val amount: Double,
